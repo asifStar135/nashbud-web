@@ -16,6 +16,6 @@ const submitForm = () =>{
 
 const exitPage = () =>{
     if(confirm("Are you sure to exit admin page ?")){
-        window.location.replace("login.html")
+        window.location.replace("/")
     }
 }
