@@ -1,0 +1,136 @@
+/*********************    LOGIN PAGE  *********************/
+body{
+    height: auto;
+}
+
+h1, h2, h3, h4{
+    margin-bottom: 0;
+}
+
+.login{
+    width: 35%;
+    padding: 2% 4%;
+    border: none;
+    margin: auto;
+    margin-top: 5.6rem;
+    text-align: center;
+}
+.login .heading h2{
+    font-weight: 600;
+    margin-bottom: 1.8rem;
+}
+.login img{
+    width: 8rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    box-shadow: 2px 10px 10px 2px #888888;
+}
+
+.login form input{
+    border: 2px solid rgba(28, 27, 27, 0.71);
+    border-radius: 10px;
+    width: 85%;
+    font-size: 18px;
+    margin: auto;
+}
+
+
+/****************************** FEEDBACK PAGE  *****************************/
+.aside a{
+    text-decoration: none;
+    color: inherit;
+}
+.feedback .top .left img{
+    height: 3.5rem;
+    border-radius: 8px;
+    margin-right: 0.5rem;
+}
+.feedback .top .exit-icon{
+    height: 2.5rem;
+    cursor: pointer;
+}
+.feedback .top .exit-icon:hover{
+    filter: contrast(.3);
+}
+.feedback .top{
+    padding: 1% 2%;
+    border-bottom: 2px solid #646161;
+}
+
+.feedback .aside{
+    width: 33%;
+    padding: 2% 1%;
+    height: 100%;
+}
+
+
+.aside .active-page{
+    border: 2px solid rgb(45, 44, 44) !important;
+}
+
+.aside div{
+    font-size: 20px;
+    font-weight: 600;
+    border: 2px solid #9d9797;
+    border-radius: 12px;
+    padding: 0.6rem;
+    text-align: center;
+    margin: 2rem 0;
+    cursor: pointer;
+    transition: .3s all;
+}
+
+.aside div:hover{
+    border: 2px solid rgb(45, 44, 44);
+}
+
+.feedback .all-feedback{
+    border-left: 2px solid rgb(98, 95, 95);
+}
+
+.feedback .single-feed{
+    padding: 2%;
+    border: 1px solid rgb(98, 95, 95);
+    border-radius: 20px;
+    margin: 0.8rem;
+}
+.feedback .single-feed .top{
+    border: none;
+}
+.feedback .single-feed .content{
+    margin-top: 1.5rem;
+    padding: 0 4%;
+}
+.feedback .single-feed .user img{
+    height: 3.3rem;
+    width: 3.3rem;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+.feedback .single-feed .comment{
+    margin-bottom: 1rem;
+}
+.feedback .single-feed .media{
+    flex-wrap: wrap;
+}
+.feedback .single-feed .media img{
+    width: 30%;
+    margin: .6rem;
+    border-radius: 10px;
+}
+
+
+
+.report .reported h3{
+    width: 40%;
+    border-bottom: 2px solid;
+    margin: 1rem 2rem;
+    text-align: center;
+}
+.report .reported .user{
+    margin: .7rem 2.5rem;
+}
+.report .aside{
+    width: 16%;
+}

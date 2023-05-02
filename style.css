@@ -1,0 +1,25 @@
+.flex-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 5rem;
+}
+
+.child {
+	padding: 1rem;
+}
+
+.child-img {
+	width: 50%;
+}
+
+@media (max-width: 400px) {
+	.flex-container {
+		flex-wrap: wrap;
+		padding: 1.5rem;
+	}
+
+	.child-img {
+		width: 100%;
+	}
+}
